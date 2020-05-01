@@ -1,0 +1,304 @@
+@media (max-width: 1200px)
+	.menu
+		.menu_link
+			font-size: 13px
+		.menu_item
+			padding-right: 20px
+
+	.promo
+		.promo_header
+			font-size: 50px
+
+	.descr_card
+		height: 249px
+		margin-bottom: 0
+
+	.descr_wrapper
+		width: 300px
+		height: 100%
+
+	.descr_title
+		width: 100%
+
+	.descr_text
+		height: 189px
+		font-size: 14px
+
+	.subreasons
+		margin-top: 2px
+		margin-bottom: 12px
+
+	.mobile_item_1
+		width: 100%
+		background-size: 100%
+		margin-bottom: 0px
+	.mobile_item_2
+		width: 100%
+		background-size: 100%
+		margin-bottom: 0px
+	.mobile_item_3
+		width: 100%
+		background-size: 100%
+		margin-bottom: 0px
+	.mobile_item_4
+		width: 100%
+		background-size: 100%
+		margin-bottom: 190
+	.mobile_item_5
+		width: 100%
+		background-size: 100%
+		margin-bottom: 190
+	.mobile_item_6
+		width: 100%
+		background-size: 100%
+		margin-bottom: 190
+
+	footer
+		.footer_cont
+				.footer_row
+					margin-top: 15px
+					.footer_left
+						.footer_socials
+					.footer_center
+						.footer_main
+							width: 100%
+							.footer_main_text
+								font-size: 11px
+						.footer_second
+							.footer_second_text
+								font-size: 9px
+				.stores
+					width: 90px
+					height: 25px
+		.black_line
+			margin-top: 15px
+			height: 6px
+		
+
+@media (max-width: 991px)
+	.menu
+		.menu_link
+			font-size: 10px
+		.menu_item
+			padding-right: 8px
+
+	.logo_descr
+		font-size: 11px
+
+	.subheader_phone
+		font-size: 18px
+	.subheader_btn
+		width: 100%
+		margin-top: 21px
+		height: 40px
+		font-size: 12px
+
+	.promo
+		.promo_header
+			font-size: 40px
+		.promo_subheader
+			font-size: 30px
+
+	.descr_card
+		flex-direction: column
+		text-align: center
+		align-items: center
+		max-width: 300px
+
+	.descr_title
+		max-width: 100%
+		margin-top: 10px
+
+	.descr_text
+		max-width: 100%
+	
+	footer
+		.footer_cont
+				.footer_row
+					.footer_left
+						.footer_socials
+					.footer_center
+						.footer_main
+							.footer_main_text
+						.footer_second
+							.footer_second_text
+					.footer_right
+						.images_footer_wrapper
+							display: flex
+							flex-direction: column
+							.stores
+
+		.black_line
+
+	
+@media (max-width: 767px)
+	.menu
+		z-index: 3
+		position: fixed
+		justify-content: center
+		text-align: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		flex-direction: column
+		background-color: rgba(0 ,0 ,0 ,0.8 )
+		transition: 0.6s
+		&_active
+			left: 0
+		.menu_link
+			font-size: 20px
+		.menu_item
+			margin-top: 10px
+			padding-right: 0
+			border: nonne
+	
+	nav
+		position: relative
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		z-index: 4
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader_btn
+		display: block
+		float: right
+		margin-top: 8px
+		width: 150px
+		height: 40px
+	
+	.xs-visible
+		display: block
+		min-width: 150px
+		font-size: 18px
+		text-align: center
+
+	.promo
+		.promo_header
+			line-height: 45px
+	.descr_card
+		margin: 0 auto
+		margin-top: 33px
+		padding: 0 
+	.descr_wrapper
+			margin: 0
+	.descr_text
+		width: 100%
+	
+	.uber_car_cont
+		height: 100%
+
+	.mobile_item_1
+		background-size: 100%
+	.mobile_item_2
+		background-size: 100%
+	.mobile_item_3
+		background-size: 100%
+	.mobile_item_4
+		background-size: 100%
+	.mobile_item_5
+		background-size: 100%
+	.mobile_item_6
+		background-size: 100%
+
+	.require
+		padding-top: 45px
+	
+	
+@media (max-width: 575px)
+	nav
+		height: 30px
+	.subheader
+		height: 60px
+	.logo_descr
+		display: none
+	.uber_logo
+		margin-top: 16px
+	.xs-visible
+		float: rigth
+		display: block
+		margin-top: 6px
+		min-width: 130px
+		font-size: 14px
+	.subheader_btn
+		padding: 6px
+		width: 130px
+		height: 28px
+		font-size: 10px
+
+	.promo
+		min-height: 400px
+		padding: 93px 0 35px 0
+		.promo_header
+			&:before
+				font-size: 30px
+				margin-top: 0 24px
+				line-height: 35px
+		.promo_subheader
+			font-size: 20px
+			margin-top: 33px
+			padding: 0 10px
+			line-height: 30px
+
+	.promo_descr
+		display: none
+
+	.promo_btn
+		width: 210px
+		height: 50px
+
+	.small_icons_block
+		justify-items: center
+	.reasons
+		font-size: 16px
+		margin-top: 5px
+		line-height: 16px
+	
+	.col-md-8.offset-md-2.reasons_bootstrap
+		margin: 15px
+
+	.row.reasons_descr
+		margin: 0
+	.col-md-2.offset-md-5
+		margin-top: 25px
+	.descr_left
+		width: 100%
+	.descr_card
+		width: 100%
+		&:first-child
+			margin-top: 0px
+	.descr_wrapper
+		width: 100%
+	.icon_img
+		width: 100px
+		height: 100px
+
+	.descr_title
+		width: 100%
+	.descr_text
+		width: 100%
